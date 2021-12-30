@@ -6,7 +6,7 @@ import type { Awaitable } from '@sapphire/utilities';
 import { Message, Permissions, Snowflake, User } from 'discord.js';
 import { Identifiers } from '../errors/Identifiers';
 
-interface MessageResolverOptions {
+export interface MessageResolverOptions {
 	channel?: TextBasedChannelTypes;
 	message: Message;
 }

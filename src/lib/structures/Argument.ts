@@ -37,12 +37,9 @@ export interface IArgument<T> {
  *
  * @example
  * ```typescript
- * // TypeScript:
  * import { Argument, PieceContext } from '@sapphire/framework';
  * import { URL } from 'url';
  *
- * // Define a class extending `Argument`, then export it.
- * // NOTE: You can use `export default` or `export =` too.
  * export class CoreArgument extends Argument<URL> {
  *   public constructor(context: PieceContext) {
  *     super(context, { name: 'hyperlink', aliases: ['url'] });
@@ -62,27 +59,6 @@ export interface IArgument<T> {
  * declare module '@sapphire/framework' {
  *   export interface ArgType {
  *     url: URL;
- *   }
- * }
- * ```
- *
- * @example
- * ```javascript
- * // JavaScript:
- * const { Argument } = require('@sapphire/framework');
- *
- * // Define a class extending `Argument`, then export it.
- * module.exports = class CoreArgument extends Argument {
- *   constructor(context) {
- *     super(context, { name: 'hyperlink', aliases: ['url'] });
- *   }
- *
- *   run(argument) {
- *     try {
- *       return this.ok(new URL(argument));
- *     } catch {
- *       return this.error(argument, 'ArgumentHyperlinkInvalidURL', 'The argument did not resolve to a valid URL.');
- *     }
  *   }
  * }
  * ```

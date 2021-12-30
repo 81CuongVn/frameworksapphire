@@ -1,18 +1,6 @@
 {
-	"cleanOutputDir": true,
-	"emit": true,
 	"entryPoints": ["src/index.ts"],
-	"excludeExternals": false,
-	"hideGenerator": true,
-	"lightHighlightTheme": "github-light",
-	"darkHighlightTheme": "github-dark",
-	"markedOptions": {
-		"gfm": true,
-		"mangle": false,
-		"smartypants": true
-	},
-	"name": "@sapphire/framework",
-	"out": "./docs/",
-	"readme": "./README.md",
+	"excludeExternals": true,
+	"json": "./docs/typedoc-out.json",
 	"tsconfig": "./src/tsconfig.json"
 }

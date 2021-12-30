@@ -10,34 +10,14 @@ import { Events } from '../types/Events';
  *
  * @example
  * ```typescript
- * // TypeScript:
  * import { Events, Listener } from '@sapphire/framework';
  *
- * // Define a class extending `Listener`, then export it.
- * // NOTE: You can use `export default` or `export =` too.
  * export class CoreListener extends Listener<typeof Events.Ready> {
  *   public constructor(context: Listener.Context) {
  *     super(context, { event: Events.Ready, once: true });
  *   }
  *
  *   public run() {
- *     this.container.client.id ??= this.container.client.user?.id ?? null;
- *   }
- * }
- * ```
- *
- * @example
- * ```javascript
- * // JavaScript:
- * const { Events, Listener } = require('@sapphire/framework');
- *
- * // Define a class extending `Listener`, then export it.
- * module.exports = class CoreListener extends Listener {
- *   constructor(context) {
- *     super(context, { event: Events.Ready, once: true });
- *   }
- *
- *   run() {
  *     this.container.client.id ??= this.container.client.user?.id ?? null;
  *   }
  * }

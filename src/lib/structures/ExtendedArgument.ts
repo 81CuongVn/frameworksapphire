@@ -15,12 +15,10 @@ import { Argument, IArgument } from './Argument';
  *
  * @example
  * ```typescript
- * // TypeScript:
  * import { ApplyOptions } from '@sapphire/decorators';
  * import { ExtendedArgument, ExtendedArgumentContext, ExtendedArgumentOptions } from '@sapphire/framework';
  * import type { Channel, TextChannel } from 'discord.js';
  *
- * // Just like with `Argument`, you can use `export default` or `export =` too.
  * (at)ApplyOptions<ExtendedArgumentOptions>({
  *   name: 'textChannel',
  *   baseArgument: 'channel'
@@ -30,24 +28,6 @@ import { Argument, IArgument } from './Argument';
  *     return parsed.type === 'text'
  *       ? this.ok(parsed as TextChannel)
  *       : this.error({ identifier: 'ArgumentTextChannelInvalidTextChannel', message: 'The argument did not resolve to a text channel.' });
- *   }
- * }
- * ```
- *
- * @example
- * ```javascript
- * // JavaScript:
- * const { ExtendedArgument } = require('@sapphire/framework');
- *
- * module.exports = class TextChannelArgument extends ExtendedArgument {
- *   constructor(context) {
- *     super(context, { name: 'textChannel', baseArgument: 'channel' });
- *   }
- *
- *   handle(parsed, { argument }) {
- *     return parsed.type === 'text'
- *       ? this.ok(parsed)
- *       : this.error({ identifier: 'ArgumentTextChannelInvalidTextChannel', message: 'The argument did not resolve to a text channel' });
  *   }
  * }
  * ```
