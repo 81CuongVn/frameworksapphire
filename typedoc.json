@@ -1,6 +1,5 @@
 {
 	"entryPoints": ["src/index.ts"],
-	"excludeExternals": true,
 	"json": "./docs/typedoc-out.json",
 	"tsconfig": "./src/tsconfig.json"
 }
