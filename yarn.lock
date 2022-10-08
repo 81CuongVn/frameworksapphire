@@ -608,6 +608,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@discordjs/builders@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@discordjs/builders@npm:1.3.0"
+  dependencies:
+    "@discordjs/util": ^0.1.0
+    "@sapphire/shapeshift": ^3.7.0
+    discord-api-types: ^0.37.12
+    fast-deep-equal: ^3.1.3
+    ts-mixer: ^6.0.1
+    tslib: ^2.4.0
+  checksum: e88133be93fb525381f0b5e0333dc5e8583c3c50e9fae2b51fc7e24f6bdb44c436d1ac174734e81fc97a880550283e7d15e6d6e2459ba9412d709eef14611f28
+  languageName: node
+  linkType: hard
+
 "@discordjs/collection@npm:^0.7.0":
   version: 0.7.0
   resolution: "@discordjs/collection@npm:0.7.0"
@@ -619,6 +633,13 @@ __metadata:
   version: 1.0.1
   resolution: "@discordjs/collection@npm:1.0.1"
   checksum: 6477ae9870f3c069b190f673a6b34467930b409a6d763f1b0d4f6169051b8499d03de7b0e7e4c3697222845aea6d94283573ad6a488b50516764df675915ff44
+  languageName: node
+  linkType: hard
+
+"@discordjs/util@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@discordjs/util@npm:0.1.0"
+  checksum: 880e15cd761437a21cf17b8a9dab50e7e5418fcc77dc34037c31a52b871fab1b958218ab6218aafd20af8b7a4e658a705d3f257268324773a285d9a06368c1b9
   languageName: node
   linkType: hard
 
@@ -1144,7 +1165,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": ^17.0.3
     "@commitlint/config-conventional": ^17.0.3
-    "@discordjs/builders": ^0.16.0
+    "@discordjs/builders": ^1.3.0
     "@favware/cliff-jumper": ^1.8.7
     "@favware/npm-deprecate": ^1.0.5
     "@favware/rollup-type-bundler": ^1.0.11
@@ -1241,6 +1262,16 @@ __metadata:
     fast-deep-equal: ^3.1.3
     lodash.uniqwith: ^4.5.0
   checksum: caecfef844c9e43e921a5051da888fae7da8980bfd9f9bb4f7fee85931d40929ffb9b6dfae464c0dccee61e56f7698f998e4d9a54d25f35fad39a51ba1a4f391
+  languageName: node
+  linkType: hard
+
+"@sapphire/shapeshift@npm:^3.7.0":
+  version: 3.7.0
+  resolution: "@sapphire/shapeshift@npm:3.7.0"
+  dependencies:
+    fast-deep-equal: ^3.1.3
+    lodash.uniqwith: ^4.5.0
+  checksum: 4fed0865abcf3653406cfa1f4a2a7d1c51103cee1c13ec4fd8fbc84bd32d20b2949e2266531c2d81b9b1e3af32787cd1f5d66a3d6146d6afb553ca2c6377beb1
   languageName: node
   linkType: hard
 
@@ -2759,6 +2790,13 @@ __metadata:
   version: 0.36.3
   resolution: "discord-api-types@npm:0.36.3"
   checksum: 3089c0fb37425dc5df03c76d82988d43fcc272699b06a02fc830d0a3bef550009aaebdf6d646529e8a7ccea76ae3f43b099d736ea5ef37a0be143142ab49871d
+  languageName: node
+  linkType: hard
+
+"discord-api-types@npm:^0.37.12":
+  version: 0.37.12
+  resolution: "discord-api-types@npm:0.37.12"
+  checksum: 0dd6bd5ad9e80708e020904fd3fc0e538df89549ea398559e51fdb562428aaddd07b3b218c7aac574c18153fe5e3bed45860ba6af6c8ccc5f4e408ffc25e3d58
   languageName: node
   linkType: hard
 
