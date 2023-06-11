@@ -15,7 +15,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.12.13, @babel/code-frame@npm:^7.16.7, @babel/code-frame@npm:^7.18.6":
+"@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.12.13, @babel/code-frame@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/code-frame@npm:7.18.6"
   dependencies:
@@ -678,21 +678,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@favware/rollup-type-bundler@npm:^1.0.11":
-  version: 1.0.11
-  resolution: "@favware/rollup-type-bundler@npm:1.0.11"
+"@favware/rollup-type-bundler@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@favware/rollup-type-bundler@npm:2.0.0"
   dependencies:
-    "@sapphire/utilities": ^3.9.2
+    "@sapphire/utilities": ^3.11.0
     colorette: ^2.0.19
-    commander: ^9.4.0
+    commander: ^9.4.1
     js-yaml: ^4.1.0
-    rollup: ^2.78.1
-    rollup-plugin-dts: ^4.2.2
-    typescript: ^4.7.4
+    rollup: ^3.2.1
+    rollup-plugin-dts: ^5.0.0
+    typescript: ^4.8.4
   bin:
     rollup-type-bundler: ./dist/cli.js
     rtb: ./dist/cli.js
-  checksum: f2f6b42d2cd5a67d1e9aabb25cfe925a00e922a2b17c0c0ae9b2f0bd574bbb2073e8e8824bbd5072fdf3a8f91c3eb6fbe2d582014222fd2ddeffbfa9950bf1fd
+  checksum: 382244abb06434b9a1486337d9257464cc79afdb3da699373ca3d356951b95183206c3bac052a6491184436b10b41a8639b6ef155c58eed5b6f54be95d898918
   languageName: node
   linkType: hard
 
@@ -1014,10 +1014,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/sourcemap-codec@npm:^1.4.10":
-  version: 1.4.14
-  resolution: "@jridgewell/sourcemap-codec@npm:1.4.14"
-  checksum: 61100637b6d173d3ba786a5dff019e1a74b1f394f323c1fee337ff390239f053b87266c7a948777f4b1ee68c01a8ad0ab61e5ff4abb5a012a0b091bec391ab97
+"@jridgewell/sourcemap-codec@npm:^1.4.10, @jridgewell/sourcemap-codec@npm:^1.4.13":
+  version: 1.4.15
+  resolution: "@jridgewell/sourcemap-codec@npm:1.4.15"
+  checksum: b881c7e503db3fc7f3c1f35a1dd2655a188cc51a3612d76efc8a6eb74728bef5606e6758ee77423e564092b4a518aba569bbb21c9bac5ab7a35b0c6ae7e344c8
   languageName: node
   linkType: hard
 
@@ -1147,7 +1147,7 @@ __metadata:
     "@discordjs/builders": ^0.16.0
     "@favware/cliff-jumper": ^1.8.7
     "@favware/npm-deprecate": ^1.0.5
-    "@favware/rollup-type-bundler": ^1.0.11
+    "@favware/rollup-type-bundler": ^2.0.0
     "@sapphire/discord-utilities": ^2.11.6
     "@sapphire/discord.js-utilities": ^5.0.0
     "@sapphire/eslint-config": ^4.3.8
@@ -1253,16 +1253,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/time-utilities@npm:^1.7.4":
-  version: 1.7.5
-  resolution: "@sapphire/time-utilities@npm:1.7.5"
-  dependencies:
-    "@sapphire/utilities": ^3.7.0
-  checksum: a83f505ff0e5eac7b8b316c7fa207f52ae2c07dd223f651d7dcb3f9a3e61b86b6168dac746455d1d1a2a4732d4865ab7526332f3f463db31048d8b1e5ba9d6cb
-  languageName: node
-  linkType: hard
-
-"@sapphire/time-utilities@npm:^1.7.6":
+"@sapphire/time-utilities@npm:^1.7.4, @sapphire/time-utilities@npm:^1.7.6":
   version: 1.7.6
   resolution: "@sapphire/time-utilities@npm:1.7.6"
   dependencies:
@@ -1281,17 +1272,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/utilities@npm:^3.7.0, @sapphire/utilities@npm:^3.8.0":
-  version: 3.9.1
-  resolution: "@sapphire/utilities@npm:3.9.1"
-  checksum: 6fbb1175b734c44d4e8f92af34948dba5b14379c3d3b961e86fa0db60b1060628e068d030700fb08629a65b3dfdeaa32ea68ac2913c4b75192f7e47abe1bd82e
-  languageName: node
-  linkType: hard
-
-"@sapphire/utilities@npm:^3.9.2":
-  version: 3.9.2
-  resolution: "@sapphire/utilities@npm:3.9.2"
-  checksum: eeef33b03b802e931ada752b8c335cc8bde4017f8029b577b0247e3f3d2b57bf5f1936b2c8c29aef5e2c6975d9b162363e4c5c434c4fead0bba74253d067b4d9
+"@sapphire/utilities@npm:^3.11.0, @sapphire/utilities@npm:^3.8.0, @sapphire/utilities@npm:^3.9.2":
+  version: 3.12.0
+  resolution: "@sapphire/utilities@npm:3.12.0"
+  checksum: 002f15263f157fdbb0603c233a43a5660cd3b45a4f3fddaa9d7066d187eec23f473ee42c8d071b0e3dec4e22b08bed337fb7eb336a02b59743a78ebc8922004e
   languageName: node
   linkType: hard
 
@@ -2381,10 +2365,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^9.3.0, commander@npm:^9.4.0":
-  version: 9.4.0
-  resolution: "commander@npm:9.4.0"
-  checksum: a322de584a6ccd1ea83c24f6a660e52d16ffbe2613fcfbb8d2cc68bc9dec637492456d754fe8bb5b039ad843ed8e04fb0b107e581a75f62cde9e1a0ab1546e09
+"commander@npm:^9.3.0, commander@npm:^9.4.0, commander@npm:^9.4.1":
+  version: 9.5.0
+  resolution: "commander@npm:9.5.0"
+  checksum: c7a3e27aa59e913b54a1bafd366b88650bc41d6651f0cbe258d4ff09d43d6a7394232a4dadd0bf518b3e696fdf595db1028a0d82c785b88bd61f8a440cecfade
   languageName: node
   linkType: hard
 
@@ -4855,12 +4839,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.26.1":
-  version: 0.26.2
-  resolution: "magic-string@npm:0.26.2"
+"magic-string@npm:^0.30.0":
+  version: 0.30.0
+  resolution: "magic-string@npm:0.30.0"
   dependencies:
-    sourcemap-codec: ^1.4.8
-  checksum: b4db4e2b370ac8d9ffc6443a2b591b75364bf1fc9121b5a4068d5b89804abff6709d1fa4a0e0c2d54f2e61e0e44db83efdfe219a5ab0ba6d25ee1f2b51fbed55
+    "@jridgewell/sourcemap-codec": ^1.4.13
+  checksum: 7bdf22e27334d8a393858a16f5f840af63a7c05848c000fd714da5aa5eefa09a1bc01d8469362f25cc5c4a14ec01b46557b7fff8751365522acddf21e57c488d
   languageName: node
   linkType: hard
 
@@ -5929,19 +5913,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-dts@npm:^4.2.2":
-  version: 4.2.2
-  resolution: "rollup-plugin-dts@npm:4.2.2"
+"rollup-plugin-dts@npm:^5.0.0":
+  version: 5.3.0
+  resolution: "rollup-plugin-dts@npm:5.3.0"
   dependencies:
-    "@babel/code-frame": ^7.16.7
-    magic-string: ^0.26.1
+    "@babel/code-frame": ^7.18.6
+    magic-string: ^0.30.0
   peerDependencies:
-    rollup: ^2.55
-    typescript: ^4.1
+    rollup: ^3.0.0
+    typescript: ^4.1 || ^5.0
   dependenciesMeta:
     "@babel/code-frame":
       optional: true
-  checksum: cf4b45f6cca442a5f44af0f0fb567c8fc540ecb792c763571d1bcda9bf495803bcc8d4eaef451a2dd32f7f391eb822e2b96cc6b86b096db54a4d3935236fd8da
+  checksum: ba3a6065598586c52af60211877a234b8c829b8a7ecd6e6b426e52ec4dc2c8c8ac6e1fb9f47db6afd91858be0dcb09fd3d312c865e972fb72ae8c9ee00eb1d36
   languageName: node
   linkType: hard
 
@@ -5967,6 +5951,20 @@ __metadata:
   bin:
     rollup: dist/bin/rollup
   checksum: 9034814383ca5bdb4bea6d499270aeb31cdb0bb884f81b0c6a1d19c63cc973f040e6ee09b7af8a7169dd231c090f4b44ef8b99c4bfdf884aceeb3dcefb8cfa14
+  languageName: node
+  linkType: hard
+
+"rollup@npm:^3.2.1":
+  version: 3.24.1
+  resolution: "rollup@npm:3.24.1"
+  dependencies:
+    fsevents: ~2.3.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    rollup: dist/bin/rollup
+  checksum: 77d56127f2e0242581055d9f1b7e1ca6a03c57f077bdfbbd1185a7196883ef776b6ea2decb3d14c9fe0286f303a7ae6d570ba3091e23e12d383f61ee01eb30e9
   languageName: node
   linkType: hard
 
@@ -6174,13 +6172,6 @@ __metadata:
   version: 0.6.1
   resolution: "source-map@npm:0.6.1"
   checksum: 59ce8640cf3f3124f64ac289012c2b8bd377c238e316fb323ea22fbfe83da07d81e000071d7242cad7a23cd91c7de98e4df8830ec3f133cb6133a5f6e9f67bc2
-  languageName: node
-  linkType: hard
-
-"sourcemap-codec@npm:^1.4.8":
-  version: 1.4.8
-  resolution: "sourcemap-codec@npm:1.4.8"
-  checksum: b57981c05611afef31605732b598ccf65124a9fcb03b833532659ac4d29ac0f7bfacbc0d6c5a28a03e84c7510e7e556d758d0bb57786e214660016fb94279316
   languageName: node
   linkType: hard
 
@@ -6703,23 +6694,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.6.3, typescript@npm:^4.6.4, typescript@npm:^4.7.4":
-  version: 4.7.4
-  resolution: "typescript@npm:4.7.4"
+"typescript@npm:^4.6.3, typescript@npm:^4.6.4, typescript@npm:^4.7.4, typescript@npm:^4.8.4":
+  version: 4.9.5
+  resolution: "typescript@npm:4.9.5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 5750181b1cd7e6482c4195825547e70f944114fb47e58e4aa7553e62f11b3f3173766aef9c281783edfd881f7b8299cf35e3ca8caebe73d8464528c907a164df
+  checksum: ee000bc26848147ad423b581bd250075662a354d84f0e06eb76d3b892328d8d4440b7487b5a83e851b12b255f55d71835b008a66cbf8f255a11e4400159237db
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>":
-  version: 4.7.4
-  resolution: "typescript@patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"
+"typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.7.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.8.4#~builtin<compat/typescript>":
+  version: 4.9.5
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=f456af"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 9096d8f6c16cb80ef3bf96fcbbd055bf1c4a43bd14f3b7be45a9fbe7ada46ec977f604d5feed3263b4f2aa7d4c7477ce5f9cd87de0d6feedec69a983f3a4f93e
+  checksum: 2eee5c37cad4390385db5db5a8e81470e42e8f1401b0358d7390095d6f681b410f2c4a0c496c6ff9ebd775423c7785cdace7bcdad76c7bee283df3d9718c0f20
   languageName: node
   linkType: hard
 
