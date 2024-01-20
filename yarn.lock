@@ -1183,7 +1183,7 @@ __metadata:
     ts-jest: ^28.0.8
     tslib: ^2.4.0
     typedoc: ^0.23.10
-    typedoc-plugin-djs-links: ^1.2.0
+    typedoc-plugin-djs-links: ^2.2.1
     typedoc-plugin-mdn-links: ^2.0.0
     typescript: ^4.7.4
   languageName: unknown
@@ -1253,16 +1253,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/time-utilities@npm:^1.7.4":
-  version: 1.7.5
-  resolution: "@sapphire/time-utilities@npm:1.7.5"
-  dependencies:
-    "@sapphire/utilities": ^3.7.0
-  checksum: a83f505ff0e5eac7b8b316c7fa207f52ae2c07dd223f651d7dcb3f9a3e61b86b6168dac746455d1d1a2a4732d4865ab7526332f3f463db31048d8b1e5ba9d6cb
-  languageName: node
-  linkType: hard
-
-"@sapphire/time-utilities@npm:^1.7.6":
+"@sapphire/time-utilities@npm:^1.7.4, @sapphire/time-utilities@npm:^1.7.6":
   version: 1.7.6
   resolution: "@sapphire/time-utilities@npm:1.7.6"
   dependencies:
@@ -1281,14 +1272,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/utilities@npm:^3.7.0, @sapphire/utilities@npm:^3.8.0":
-  version: 3.9.1
-  resolution: "@sapphire/utilities@npm:3.9.1"
-  checksum: 6fbb1175b734c44d4e8f92af34948dba5b14379c3d3b961e86fa0db60b1060628e068d030700fb08629a65b3dfdeaa32ea68ac2913c4b75192f7e47abe1bd82e
-  languageName: node
-  linkType: hard
-
-"@sapphire/utilities@npm:^3.9.2":
+"@sapphire/utilities@npm:^3.8.0, @sapphire/utilities@npm:^3.9.2":
   version: 3.9.2
   resolution: "@sapphire/utilities@npm:3.9.2"
   checksum: eeef33b03b802e931ada752b8c335cc8bde4017f8029b577b0247e3f3d2b57bf5f1936b2c8c29aef5e2c6975d9b162363e4c5c434c4fead0bba74253d067b4d9
@@ -6671,10 +6655,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typedoc-plugin-djs-links@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "typedoc-plugin-djs-links@npm:1.2.0"
-  checksum: 0f54136a4efebbdc689273d933ac70fc4d36df7c7b67179a86077678a152e3add6be3bc7c0633f66bea1b32a69bd18ac49b8812ab7aeca57a66fd042ce6b5a91
+"typedoc-plugin-djs-links@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "typedoc-plugin-djs-links@npm:2.2.1"
+  peerDependencies:
+    typedoc: ">= 0.23.14 || 0.24.x || 0.25.x"
+  checksum: 06accf23100a26d63b106cb7987fc2482736d5844e72756bb9f43b230c3f96788562cfa557c9af495e097523b626557c1afe1e940eafff1f2921a943c942c895
   languageName: node
   linkType: hard
 
